@@ -15,11 +15,12 @@
 </head>
 
 <body>
-   <a href="#Existing">Jump to Existing Members</a><br />
-   <a href="#Potential">Jump to Potential Members</a><br />
-<hr>
 
 <h1 id="Existing">Existing Members</h1>
+ <a href="#Potential">Jump to Potential Members</a><br />
+ <a href="#PDB">Jump to Grouped by PDB</a><br />
+ <a href="https://ceet-upenn.github.io/AKR-Superfamily/">Back</a><br />
+
 
 <p>This table contains all known members of the AKR Superfamily that are contained
 in our database.</p>
@@ -65,6 +66,9 @@ in our database.</p>
 <hr>
 
 <h1 id="Potential">Potential Members</h1>
+ <a href="#Existing">Jump to Existing Members</a><br />
+ <a href="#PDB">Jump to Grouped by PDB</a><br />
+ <a href="https://ceet-upenn.github.io/AKR-Superfamily/">Back</a><br />
 
 <p>This table lists potential AKR superfamily members. These are currently excluded
 from the nomenclature because either no functional data exists for the protein
@@ -99,5 +103,45 @@ or the sequence is a partial cDNA or derived from a genomics project.</p>
         });
     </script>
 <hr>
+
+<h1 id="PDB">Grouped by PDB Structure</h1>
+ <a href="#Existing">Jump to Existing Members</a><br />
+ <a href="#Potential">Jump to Potential Members</a><br />
+ <a href="https://ceet-upenn.github.io/AKR-Superfamily/">Back</a><br />
+
+<p>This table contains AKR sequences grouped according to Protein Data Bank (PDB)
+structures. Note that more than one AKR can map to the same PDB entry.</p>
+<div id="table-container3"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.csv.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="js/csv_to_html_table.js"></script>
+
+    <script>
+        function format_link(link) {
+            if (link)
+                return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+            else return "";
+        }
+
+        CsvToHtmlTable.init({
+            csv_path: "data/table/PDB.csv",
+            element: "table-container3",
+            allow_download: true,
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },
+            datatables_options: {
+                paging: false
+            },
+            custom_formatting: [[4, format_link]]
+        });
+    </script>
+<hr>
+ <a href="https://ceet-upenn.github.io/AKR-Superfamily/">Back</a><br />
+
 </body>
 </html>
