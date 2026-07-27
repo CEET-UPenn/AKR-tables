@@ -27,7 +27,7 @@ Order,AKR,Accession,Species,Enzyme,PDB,Alt Splicing
 26,AKR1C6,"<a href=""https://www.ncbi.nlm.nih.gov/protein/np_085114"">NP_085114</a>",Mus musculus,"Estradiol 17b-HSD (EC 1.1.1.62),Murine Type 5 17b-HSD",,"<a href=""http://useast.ensembl.org/Mus_musculus_WSB_EiJ/Transcript/ProteinSummary?g=MGP_WSBEiJ_G0019548;r=13:943899-964583;t=MGP_WSBEiJ_T0035349"">Transcripts</a>"
 27,AKR1C7,"<a href=""https://www.ncbi.nlm.nih.gov/protein/P05980"">P05980</a>",Bos taurus,"Prostaglandin F synthase 1 (EC 1.1.1.188), Prostaglandin D2 11-ketoreductase",,
 28,AKR1C8,"<a href=""https://www.ncbi.nlm.nih.gov/protein/P51652"">P51652</a>",Rattus norvegicus,20a-HSD (EC 1.1.1.149),,
-29,AKR1C9,"<a href=""https://www.ncbi.nlm.nih.gov/protein/p23457"">P23457</a>",Rattus norvegicus,3a-HSD (EC 1.1.1.213),"<a href=""https://www.rcsb.org/structure/1RAL"">1RAL</a>",
+29,AKR1C9,"<a href=""https://www.ncbi.nlm.nih.gov/protein/p23457"">P23457</a>",Rattus norvegicus,3a-HSD (EC 1.1.1.213),"<a href=""https://www.rcsb.org/structure/1RAL"">1RAL</a>, <a href=""https://www.rcsb.org/structure/1AFS"">1AFS</a>, <a href=""https://www.rcsb.org/structure/1LWI"">1LWI</a>",
 30,AKR1C10a,"<a href=""https://www.ncbi.nlm.nih.gov/protein/p02532"">P02532</a>",Rana temporaria,rho-crystallin,,
 31,AKR1C10b,"<a href=""https://www.ncbi.nlm.nih.gov/protein/p17264"">P17264</a>",Rana catesbeina,rho-crystallin,,
 32,AKR1C11,"<a href=""https://www.ncbi.nlm.nih.gov/protein/BAA13690"">BAA13690</a>",Bos taurus,prostaglandin F synthase 2 (EC 1.1.1.188),,
